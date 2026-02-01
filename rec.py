@@ -6,3 +6,4 @@ def receive_input():
         print("received:", text)
 
 if __name__ == "__main__":
+    receive_input()
