@@ -4,9 +4,8 @@ def send_input():
         if text == "":
             break
 
-        f = open("data.txt", "w")
+        f = open("text", "w")
         f.write(text)
-        f.close()
         print("sent:", text)
 
 if __name__ == "__main__":
